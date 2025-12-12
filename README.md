@@ -48,6 +48,19 @@ Back-Me-Up is a powerful shell script tool designed to automate the bug bounty p
 
 1. Clone the repo: `git clone https://github.com/Dheerajmadhukar/back-me-up.git`
 2. Change dir & run the script: `cd back-me-up/`
+
+#### For macOS Users:
+If you face errors related to Bash version when running the installation, use these commands:
+
+```bash
+# Update bash to version 4+ via Homebrew
+brew install bash
+
+# Run the script with the updated bash
+/opt/homebrew/bin/bash ./backmeup.sh -i
+```
+
+#### For Linux Users:
 3. To check installed prerequisite packages/tools/libs :
 ```
 bash backmeup.sh --check/-c
@@ -130,4 +143,3 @@ Back-Me-Up is designed for responsible use in legitimate penetration testing and
 If you find Back-Me-Up useful, consider buying me a beer to support future development:
 
 <a href="https://www.buymeacoffee.com/medheeraj" target="_blank"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a beer&emoji=🍺&slug=medheeraj&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Beer"></a>
-
